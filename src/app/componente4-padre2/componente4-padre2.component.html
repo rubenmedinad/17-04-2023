@@ -1,0 +1,16 @@
+<label for="marca">Nombre: </label>
+<input type="string" id="marca" name="marca" [(ngModel)]="nombre"><br>
+<label for="apellido">Apellido: </label>
+<input type="string" id="apellido" name="apellido" [(ngModel)]="apellido"><br>
+<label for="velocidad">Dni: </label>
+<input type="number" id="velocidad" name="velocidad" [(ngModel)]="dni"><br>
+<label for="piñones">Telefono: </label>
+<input type="number"id="piñones" name="piñones"[(ngModel)]="telefono"><br>
+<label for="direccion">Direccion: </label>
+<input type="String" id="direccion" name="direccion" [(ngModel)]="direccion"><br>
+<label for="email">Email:</label>
+<input type="string" id="email" name="email" [(ngModel)]="email"><br><br><br>
+<input type="submit" value="subir" (click)="anadir()">
+<app-componente4-hijo2 [pacientes]="pacientes"></app-componente4-hijo2>
+<hr>
+<hr>

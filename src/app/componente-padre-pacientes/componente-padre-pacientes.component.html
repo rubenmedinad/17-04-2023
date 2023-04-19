@@ -1,0 +1,18 @@
+<app-componentehijo-pacientes
+(enviardatos)="anadirpaciente($event)"
+></app-componentehijo-pacientes>
+<table class="tabla-pacientes">
+  <tr>
+    <td>Nombre</td>
+    <td>Apellido</td>
+    <td>dni</td>
+  </tr>
+
+  <tr class="fila-paciente" *ngFor="let paciente of pacientes">
+    <td>{{ paciente.nombre }}</td>
+    <td>{{ paciente.apellido }}</td>
+    <td>{{ paciente.dni }}</td>
+  </tr>
+</table>
+<hr />
+<hr />

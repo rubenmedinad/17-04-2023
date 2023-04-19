@@ -1,0 +1,35 @@
+/* Estilo para la tabla con clase .tabla-pacientes */
+.tabla-pacientes {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Estilo para las filas de la tabla */
+.tabla-pacientes tr {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para las celdas de la tabla */
+.tabla-pacientes td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo para la fila de pacientes con clase .fila-paciente */
+.fila-paciente {
+  font-weight: bold;
+}
+
+/* Estilo para la línea horizontal hr */
+hr {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo adicional para la línea horizontal hr */
+hr::before {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+}

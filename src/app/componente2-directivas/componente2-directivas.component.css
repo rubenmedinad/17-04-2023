@@ -1,0 +1,49 @@
+/* Estilo para el h1 con ngIf */
+h1[ngIf] {
+  font-size: 24px;
+  color: blue;
+}
+
+/* Estilo para la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Estilo para las filas de la tabla */
+tr {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para las celdas de la tabla */
+td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo para el span dentro de las celdas de la tabla */
+td span {
+  font-weight: bold;
+  color: green;
+}
+
+/* Estilo para el div con ngSwitch */
+div[ngSwitch] {
+  margin-top: 20px;
+}
+
+/* Estilo para los casos de ngSwitch */
+p[ngSwitchCase] {
+  color: red;
+}
+
+/* Estilo para el caso por defecto de ngSwitch */
+p[ngSwitchDefault] {
+  color: purple;
+}
+
+/* Estilo para la ng-template */
+ng-template {
+  font-style: italic;
+  color: gray;
+}

@@ -1,0 +1,26 @@
+input[type="string"],
+input[type="number"],
+select {
+  width: 100%; /* Ancho del input al 100% del contenedor */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #ccc; /* Borde inferior de color gris claro */
+  outline: none; /* Quitar el contorno en el enfoque */
+  transition: border-color 0.3s ease; /* Transición suave en el cambio de color de borde */
+  background-color: #f8f8f8; /* Color de fondo de los inputs */
+  color: #333; /* Color de texto */
+}
+/* Estilo para el input de tipo submit */
+input[type="submit"] {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo para los saltos de línea <br> */
+br {
+  margin-bottom: 10px;
+}
